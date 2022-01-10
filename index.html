@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGN Farming enterprise Ltd.</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" type="image/jpeg" href="image/favicon (2).png">
+</head>
+<body style="background-color:red">
+    <div c1ass="add">
+    <h1>NGN Farming</h1>
+    <p>NGN Farming is an online agricultural trading  to sell various agricultural commodities in the cuddalore. This  facilitates farmers, traders & buyers with online trading in commodities.</p>
+    <h2>List of available Products</h2>
+    </div>
+    <ol>
+        <li>Farming Products</li>
+             <ul style="list-style-type:circle">
+                    <li>Tender Coconut</li>
+                    <li>Coconut sapling</li>
+                    <li>Husk peeled coconut for occassion</li>
+                    <li>Banana tree set for festival/marriage</li>
+                    <li>Banana</li>
+            </ul><br>
+       
+            <li>Fertilizer</li>
+       <dl>     
+                     <dt>Vermi compost</dt>
+                     <dd>-Decomposition process using various species of worms</dd>
+                     <dt>Panjakavya</dt>
+                     <dd>-Panchagavya is combination of nine products </dd>
+                     <dt>Coconut husk compost</dt>
+                     <dd>-fiber from coconut husks<dd>
+           </dl>
+    </ol>    
+    <h2>Select your requirement</h2>
+
+     <form action="next.php"method ="POST">
+    <div>
+     <label>First name</label>
+     <input type="text" name="name">
+    </div>
+    <br>
+      <div>
+     <label>Phone Number</label>
+     <input type="number" name="Ph.No.">
+     </div>
+     <br>
+     <div>
+     <label>Requirement-from available products</label>
+     <br>
+     <input type="checkbox" name="TC"/>Tender Coconut<br>
+     <input type="checkbox" name="AZ"/>Husk peeled coconut for occassion<br>
+     <input type="checkbox" name="PC"/>Coconut sapling<br>
+     <input type="checkbox" name="CHC"/>Banana tree sets for festival/marriage<br>
+     <input type="checkbox" name="TC"/>Banana<br>
+<br>
+    <div>
+    <label>select folowing</label><br>
+    <input type="checkbox" name="VC"/>Vermi compost<br>
+    <input type="checkbox" name="AZ"/>Azola<br>
+    <input type="checkbox" name="PC"/>Panjakavya<br>
+    <input type="checkbox" name="CHC"/>Coconut husk compost<br>
+    </div>
+    <br>
+<div>
+     <label>Date of requirement of order</label>
+     <input type="Date" name="Date of requirement of order">
+     </div>
+     <br>
+    </form>
+    <b>
+        <input type="button" value="ORDER NOW" onclick="msg()"></b>
+</body>
+</html>

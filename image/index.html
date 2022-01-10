@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" type="image/jpeg" href="/sasi/favicon.jpg">
+</head>
+<body>
+    <div c1ass="add">
+    <h1>NGN Farming</h1>
+    <p>NGN Farming is an online agricultural trading  to sell various agricultural commodities in the cuddalore. This  facilitates farmers, traders & buyers with online trading in commodities.</p>
+    <h2>List of available Products</h2>
+    </div>
+    <ol>
+        <li>Farming Products</li>
+             <ul style="list-style-type:circle">
+                    <li>Tender Coconut</li>
+                    <li>Coconut sapling</li>
+                    <li>Husk peeled coconut for occassion</li>
+                    <li>Banana tree set for festival/marriage</li>
+                    <li>Banana</li>
+            </ul><br>
+       <li>Fertilizer</li>
+       <dl>     
+                     <dt>Vermi compost</dt>
+                     <dd>-Decomposition process using various species of worms</dd>
+                     <dt>Panjakavya</dt>
+                     <dd>-Panchagavya is combination of nine products </dd>
+                     <dt>Coconut husk compost</dt>
+                     <dd>-fiber from coconut husks<dd>
+           </dl>
+    </ol>    
+    <h2>Select your requirement</h2>
+
+     <form action="next.php"method ="POST">
+    <div>
+     <label>First name</label>
+     <input type="text" name="name">
+    </div>
+    <br>
+      <div>
+     <label>Phone Number</label>
+     <input type="number" name="Ph.No.">
+     </div>
+     <br>
+     <div>
+     <label for="Farming products">Requirement-from available products</label>
+     <select name="Farming products" id="Farming products" multiple>
+     <option value="Tender Coconut">Tender Coconut</option>
+     <option value="Husk peeled coconut for occassion">Husk peeled coconut for occassion</option>     
+     <option value="Coconut sapling">Coconut sapling</option>
+     <option value="Banana tree sets for festival/marriage">Banana tree sets for festival/marriage</option>
+     <option value="Banana">Banana</option>
+     <option hidden>Hidden Option</option>
+    </select>
+    </div>
+<br>
+    <div>
+    <label for="fertilizer">Requirement-from available fertilizer</label>
+     <select name="Requirement-from available fertilizer" id="fertilizer"multiple>
+     <option value="Vermi compost">Vermi compost</option>
+     <option value="Azola">Azola</option>
+     <option value="Panjakavya">Panjakavya</option>
+     <option value="Coconut husk compost">Coconut husk compost</option>
+     <option hidden>Hidden Option</option>
+    </select>
+    </div>
+    <br>
+<div>
+     <label>Date of requirement of order</label>
+     <input type="Date" name="Date of requirement of order">
+     </div>
+     <br>
+    </form>
+    <b>
+        <input type="button" value="ORDER NOW" onclick="msg()"></b>
+</body>
+</html>
