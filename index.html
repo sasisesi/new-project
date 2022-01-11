@@ -8,35 +8,58 @@
     <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" type="image/jpeg" href="image/favicon (2).png">
 </head>
-<body style="background-color:red">
-    <div c1ass="add">
-    <h1>NGN Farming</h1>
-    <p>NGN Farming is an online agricultural trading  to sell various agricultural commodities in the cuddalore. This  facilitates farmers, traders & buyers with online trading in commodities.</p>
+<body>
+    <table width="100%" border="0" bgcolor="Gray" height="40">
+        <tr>
+           <td></td>
+       </tr>
+   </table>
+    <h1 class="city">NGN Farming</h1>
+    <p class="city1"><b>NGN Farming<b> is an <i>online agricultural trading<i>to sell various agricultural commodities in the cuddalore. This  facilitates farmers, traders & buyers with online trading in commodities.Fertilizers and farming products are provided Online on CoD/online Payment.The naturally Processed fertizers and pesticides are used in farm field .Ihe Fertilizers are also available in sale in market Prize.</p>
+    <table>
+        <tr>
+            <th>
+                <img src="image/long view.jpeg" alt="img 1" style="width:400px;height:250px;">
+            </th>
+            <th>
+                <img src="image/images 3.jpeg" alt="img 2" style="width:450px;height:250px;">
+            </th>
+            <th>
+                <img src="image/IMG 2.jpeg" alt="img 3" style="width:400px;height:250px;">
+            </th>
+        </tr>
+    </table>    
     <h2>List of available Products</h2>
+    <div class="c2">
+    <table style="width:100%" border="0" bgcolor="rgba(255, 99, 71, 0.8)"  height="80">
+            <tr>
+                <th style="text-align:left"> 
+                        <Label>Farming Products</label>
+                             <ul style="list-style-type:circle">
+                                <li>Tender Coconut</li>
+                                <li>Coconut sapling</li>
+                                <li>Husk peeled coconut for occassion</li>
+                                <li>Banana tree set for festival/marriage</li>
+                                <li>Banana</li>
+                            </ul>
+                </th> 
+                <th style="text-align:left">
+                        <label>Natural Fertilizer </label>
+                             <ul style="list-style-type:circle">     
+                                <li>Vermi compost</li>
+                                <li>Panjakavya </li>
+                                <li>Coconut husk compost</li>
+                                <li>Composting Cow Manure</li>
+                                <li>Azola</li>
+                            </ul>
+                </th>    
+            </tr> 
+    </table>   
     </div>
-    <ol>
-        <li>Farming Products</li>
-             <ul style="list-style-type:circle">
-                    <li>Tender Coconut</li>
-                    <li>Coconut sapling</li>
-                    <li>Husk peeled coconut for occassion</li>
-                    <li>Banana tree set for festival/marriage</li>
-                    <li>Banana</li>
-            </ul><br>
-       
-            <li>Fertilizer</li>
-       <dl>     
-                     <dt>Vermi compost</dt>
-                     <dd>-Decomposition process using various species of worms</dd>
-                     <dt>Panjakavya</dt>
-                     <dd>-Panchagavya is combination of nine products </dd>
-                     <dt>Coconut husk compost</dt>
-                     <dd>-fiber from coconut husks<dd>
-           </dl>
-    </ol>    
+<div class="f1">
     <h2>Select your requirement</h2>
 
-     <form action="next.php"method ="POST">
+    <form action="next.php"method ="POST">
     <div>
      <label>First name</label>
      <input type="text" name="name">
@@ -57,11 +80,12 @@
      <input type="checkbox" name="TC"/>Banana<br>
 <br>
     <div>
-    <label>select folowing</label><br>
+    <label>Requirement-from available Fertilizer</label><br>
     <input type="checkbox" name="VC"/>Vermi compost<br>
     <input type="checkbox" name="AZ"/>Azola<br>
     <input type="checkbox" name="PC"/>Panjakavya<br>
     <input type="checkbox" name="CHC"/>Coconut husk compost<br>
+    <input type="checkbox" name="CCM"/>Composting Cow Manure<br>
     </div>
     <br>
 <div>
@@ -71,6 +95,8 @@
      <br>
     </form>
     <b>
-        <input type="button" value="ORDER NOW" onclick="msg()"></b>
+    <input type="button" value="ORDER NOW" onclick="msg()"></b>
+    </div>
+</div>
 </body>
 </html>
